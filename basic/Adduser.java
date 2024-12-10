@@ -7,5 +7,7 @@ public class Adduser {
         int b = sc.nextInt();
         int c = a+b;
         System.out.println("Sum of "+a+" and "+b+" is "+c);
+
+        sc.close();
     }
 }
