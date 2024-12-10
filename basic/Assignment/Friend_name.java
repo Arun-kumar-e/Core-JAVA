@@ -1,4 +1,3 @@
-package Assignment;
 public class Friend_name {
     public static void main(String[] args) {
 

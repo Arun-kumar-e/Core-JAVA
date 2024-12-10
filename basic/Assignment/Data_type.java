@@ -1,4 +1,3 @@
-package Assignment;
 public class Data_type {
     public static void main(String[] args) {
 
