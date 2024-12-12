@@ -11,6 +11,16 @@ public class StringCompare {
             System.out.println("A");
         }
 
+
+        //Another String Compare
+        String s2 = sc.next();
+        String s3 = sc.next();
+
+        if (s2.equals(s3)) {
+            System.out.println("Equal");
+        }else {
+            System.out.println("Not Equal");
+        }
         sc.close();
     }
 }
