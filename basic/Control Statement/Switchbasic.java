@@ -11,10 +11,12 @@ public class Switchbasic {
         switch(num) {
             case 1:
                 System.out.println("One");
-                break;                
+                break;
+                
             case 2:
                 System.out.println("Two");
-                break;                
+                break;
+                
             default:
                 System.out.println("Not found");
         }
