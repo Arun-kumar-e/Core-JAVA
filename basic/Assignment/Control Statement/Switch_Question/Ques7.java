@@ -104,10 +104,11 @@ public class Ques7 {
                 int a = 0, b = 1, d = 0;
                 for(int i = 1; i <= fib; i++) {
                     d = a + b;
+                    System.out.println(d);
                     a = b;
                     b = d;
                 }
-                System.out.println(c);
+                
                 break;
             
             case 't':
