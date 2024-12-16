@@ -10,13 +10,12 @@ public class D1 {
         int a = sc.nextInt();
 
         int count = 0 , sum =0;
+        if (a>0) { 
+            
+        
         for (int i = a; i > 0; i = i/10) {
             int r = i%10;
                sum = sum + r;
-               if(r<=0){
-                System.out.println("invalid car code");
-                break;
-               }
                count++;
         }
 
@@ -31,6 +30,9 @@ public class D1 {
             System.out.println("It is not a valid car number");
             
         }
+    } else {
+        System.out.println("It is not a valid car number");
+    }
 
         sc.close();
     }
