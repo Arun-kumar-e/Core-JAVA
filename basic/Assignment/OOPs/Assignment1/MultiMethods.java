@@ -1,5 +1,5 @@
 
-class A{
+class Meth{
 
     void Methods1(){
         System.out.println("Method 1");
@@ -14,7 +14,7 @@ public class MultiMethods {
     
     public static void main(String[] args) {
         
-        A a = new A();
+        Meth a = new Meth();
         a.Methods1();
         a.Methods2();
     }
