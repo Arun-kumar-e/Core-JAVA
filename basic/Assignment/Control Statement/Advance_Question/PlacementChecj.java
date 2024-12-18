@@ -19,8 +19,12 @@ public class PlacementChecj {
             System.out.println("Highest placement is in CSE");
         } else if (ece >= cse && ece >= mech) {
             System.out.println("Highest placement is in ECE");
-        } else {
+        } else if (mech >= cse && mech >= ece) {
             System.out.println("Highest placement is in MECH");
+        } else if (cse == ece && cse == mech && ece == mech) {
+            System.out.println("None of the department has got the highest placement");
+        } else {
+            System.out.println("Invalid Input");
         }
 
         sc.close();
