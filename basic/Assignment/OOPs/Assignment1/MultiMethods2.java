@@ -1,9 +1,9 @@
-class A{
+class ClasA{
     void Methods1(){
         System.out.println("class AMethods1() is called.");
     }
 }
-class B{
+class ClasB{
     void bMethod1(){
         System.out.println("class B Methods1() is called.");
     }
@@ -11,7 +11,7 @@ class B{
         System.out.println("class B Methods2() is called.");
     }
 }
-class C{
+class ClasC{
     void cMethod1(){
         System.out.println("class C Methods1() is called.");
     }
@@ -22,7 +22,7 @@ class C{
         System.out.println("class C Methods3() is called.");
     }
 }
-class D{
+class ClasD{
     void dMethod1(){
         System.out.println("class D Methods1() is called.");
     }
@@ -42,19 +42,19 @@ public class MultiMethods2 {
     
     public static void main(String[] args) {
 
-        A a = new A();
+        ClasA a = new ClasA();
         a.Methods1();
         
-        B b = new B();
+        ClasB b = new ClasB();
         b.bMethod1();
         b.bMethod2();
         
-        C c = new C();
+        ClasC c = new ClasC();
         c.cMethod1();
         c.cMethod2();
         c.cMethod3();
         
-        D d = new D();
+        ClasD d = new ClasD();
         d.dMethod1();
         d.dMethod2();
         d.dMethod3();
