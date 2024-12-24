@@ -1,5 +1,3 @@
-package Inheritance;
-
 public class SingleLevel {
     
     public static void main(String[] args) {
