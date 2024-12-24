@@ -18,8 +18,7 @@ public class Constructorcall {
 
 class Constrr{
     Constrr(){
-
-    }
+        }
 
     void NoRetandNoArg(){
         System.out.println("No Return and No Argument");
@@ -32,4 +31,5 @@ class Constrr{
     String RetandNoArg(){
         return "Return and No Argument";
     }
+    
 }
