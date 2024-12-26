@@ -13,9 +13,9 @@ public class Account {
         System.out.println("Name of account is "+a1.get4());
 
         System.out.println("Private methods can not be accessed in this way");
-        a1.set(1000.456, "Rohit");
-        System.out.println("Balance of account is "+a1.get5());
-        System.out.println("Name of account is "+a1.get6());
+        // a1.set(1000.456, "Rohit");
+        // System.out.println("Balance of account is "+a1.get5());
+        // System.out.println("Name of account is "+a1.get6());
     }
 }
 
@@ -49,14 +49,14 @@ class InnerAccount {
         return name;
     }
 
-    private Double get5(){
-        System.out.println("Balance method using Private modifier");
-        return balance;
-    }
+    // private Double get5(){
+    //     System.out.println("Balance method using Private modifier");
+    //     return balance;
+    // }
 
-    private String get6(){
-        System.out.println("Name method using Private modifier");
-        return name;
-    }
+    // private String get6(){
+    //     System.out.println("Name method using Private modifier");
+    //     return name;
+    // }
 
 }
