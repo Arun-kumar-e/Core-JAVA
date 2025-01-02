@@ -2,7 +2,7 @@ public class DefaultConstructorMultilevel {
     
     public static void main(String[] args) {
         
-        D d = new D();
+        new D();
 
     }
 }
