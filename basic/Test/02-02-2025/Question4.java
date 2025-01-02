@@ -3,17 +3,26 @@ public class Question4 {
     public static void main(String[] args) {
         
         Product p = new Product();
-        p.price(455);
+        p.setter(100);
+        p.price();
 
         System.out.println( );
-        
-        p.price(-55);
+
+       p.setter(-100);
+         p.price();
     }
 }
 
 class Product{
 
-    void price(int price){
+    private int price;
+
+    void setter(int price){
+        this.price = price;
+    }
+
+
+    void price(){
         if (price > 0) {
             System.out.println("Price: " + price);
         } else {
