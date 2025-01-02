@@ -2,7 +2,8 @@ public class Question1 {
 
     public static void main(String[] args) {
 
-        Student student = new Student("John", 1, 'A');
+        Student student = new Student();
+        student.setter("Aditya", 1, 'A');        
 
         System.out.println("Name: " + student.getName());
         System.out.println("Roll Number: " + student.getRollNumber());
@@ -10,13 +11,15 @@ public class Question1 {
 
         System.out.println("\nAfter Modification \n");
 
-        student.setName("Doe");
-        student.setRollNumber(2);
-        student.setGrade('B');
+        Student student1 = new Student();
+        student1.setter("Arun", 2, 'B');        
 
-        System.out.println("Name: " + student.getName());
-        System.out.println("Roll Number: " + student.getRollNumber());
-        System.out.println("Grade: " + student.getGrade());
+        System.out.println("Name: " + student1.getName());
+        System.out.println("Roll Number: " + student1.getRollNumber());
+        System.out.println("Grade: " + student1.getGrade());
+        
+
+       
     }
 
 }
@@ -27,7 +30,7 @@ class Student {
     private int rollN;
     private char grade;
 
-    Student(String name, int rollN, char grade) {
+    void setter(String name, int rollN, char grade) {
         this.name = name;
         this.rollN = rollN;
         this.grade = grade;
@@ -45,15 +48,4 @@ class Student {
         return grade;
     }
 
-    void setName(String name) {
-        this.name = name;
-    }
-
-    void setRollNumber(int rollN) {
-        this.rollN = rollN;
-    }
-
-    void setGrade(char grade) {
-        this.grade = grade;
-    }
 }
