@@ -1,7 +1,3 @@
-/*
- * Create a program where a Person class is inherited by both Employee and Student classes, and demonstrate how each subclass can have its own unique methods.
-
- */
 public class Inheritance12 {
 
     public static void main(String[] args) {
