@@ -1,27 +1,27 @@
-public class MethodOverloading1 {
-
+public class MethodOverloading2 {
+    
     public static void main(String[] args) {
         
         A obj = new A();
-        obj.show(10, 20 , 30 , 40);
-        obj.show(10, 20 , 5);
         obj.show(10, 20);
+        obj.show(10, 20L);
+        obj.show(10L, 20);
         obj.show();
-        obj.show(20);
+        obj.show(10.5f, 20);
 
     }
 }
 
 class A{
-    void show(int a , int b , int c , int d){
-        System.out.println("Add " + (a + b + c + d));
+    void show(int a , int b){
+        System.out.println("Add " + (a + b));
     }
 
-    void show(int a , int b , int c ){
-        System.out.println("Sub " + (a - b - c));
+    void show(int a , Long b){
+        System.out.println("Sub " + (a - b));
     }
 
-    void show( int a , int b){
+    void show(Long a , int b){
         System.out.println("Multi " + (a * b));
     }
 
@@ -31,12 +31,9 @@ class A{
         System.out.println("Div " + (a / b));
     }
 
-    void show( int b){
-        int a = 10;
+    void show(float a , int b){
         float c = a%b;
         System.out.println("Mod " + c);
     }
 
 }
-
-
