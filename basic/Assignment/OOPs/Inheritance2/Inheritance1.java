@@ -1,6 +1,3 @@
-/*
- * Write a Java program to demonstrate single-level inheritance where a Student class inherits from a Person class.
- */
 public class Inheritance1 {
 
     public static void main(String[] args) {
