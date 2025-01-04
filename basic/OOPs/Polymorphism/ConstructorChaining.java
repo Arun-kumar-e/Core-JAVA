@@ -1,4 +1,4 @@
-// Chaining can only be done in same class
+//  Chaining can only be done in same class
 public class ConstructorChaining {
     
     public static void main(String[] args) {
@@ -9,6 +9,7 @@ public class ConstructorChaining {
 }
 
 class A{
+    // Constructor Chaining can be done using this or writing the constructor name
     A(){
         this(233);
         System.out.println("Default Constructor");
