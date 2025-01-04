@@ -6,6 +6,9 @@ public class MethodOverriding3 {
         obj.show(10);
         obj.show();
 
+        // D obj1 = new D();
+        // obj1.show();
+
     }
 }
 
@@ -33,7 +36,8 @@ class B extends A{
 // class D extends c{
 
 //     int show(){
+//         int a = 10;
 //         System.out.println("D");
-//         return 0;
+//         return a;
 //     }
 // }
