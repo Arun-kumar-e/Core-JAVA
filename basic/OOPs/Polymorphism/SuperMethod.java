@@ -13,7 +13,7 @@ class A{
 }
 
 class B extends A{ 
-    
+
     B(){
         super(10);
         System.out.println("B");
