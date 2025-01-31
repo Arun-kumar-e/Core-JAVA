@@ -1,8 +1,7 @@
-public class InnerClass {
+public class InnerClass2 {
     public static void main(String[] args) {
-        A obj = new A();
-        A.B obj1 = obj.new B();
-        obj1.display(); 
+        A.B obj1 = new A().new B();
+        obj1.display();
     }
 }
 class A{
