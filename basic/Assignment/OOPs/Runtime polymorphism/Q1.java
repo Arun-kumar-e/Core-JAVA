@@ -1,23 +1,17 @@
 public class Q1 {
-
     public static void main(String[] args) {
-        
-        B obj = new B();
-        obj.show();
-
+        B a = new B();
+        a.m1();
     }
 }
 
-class A {
-
-    void show(){
-        System.out.println("Class A");
+class A{
+    void m1(){
+        System.out.println("A's m1");
     }
 }
-
-class B extends A {
-
-    void show(){
-        System.out.println("Class B");
+class B extends A{
+    void m1(){
+        System.out.println("B's m1");
     }
 }
