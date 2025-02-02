@@ -25,7 +25,7 @@ class E implements D{
     }
 }
 
-public class Main{
+public class Q1{
     public static void main(String []args){
         E obj = new E();
         System.out.println(obj.sum(10,15));
