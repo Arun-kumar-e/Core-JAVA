@@ -6,16 +6,14 @@ public class Q4{
         b.method2();
     }
 }
-class A
-{
+class A{
          protected void method1()
          {
             System.out.println("method 1");
          }
 }
         
-class B extends A
-{
+class B extends A{
     public void method2()
     {
        System.out.println("method 2");
