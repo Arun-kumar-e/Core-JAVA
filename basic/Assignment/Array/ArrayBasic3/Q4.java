@@ -4,11 +4,13 @@ public class Q4 {
         for(int i = 0; i < a.length; i++) {
             int target = a[i];
            
-            if(a[j] == target) {
-                System.out.print("The index of " + target + " is ");
-            }
             
+
             for(int j = i+1; j < a.length; j++) {
+                if(a[j] == target) {
+                    System.out.print("The index of " + target + " is ");
+                }
+                
                 if(a[j] == target) {
                     
                     System.out.print( j + " ");
