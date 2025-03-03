@@ -37,5 +37,7 @@ public class Ex1 {
         catch(InputMismatchException e){
             System.out.println("Invalid input");
         }
+
+        sc.close();
     }
 }
