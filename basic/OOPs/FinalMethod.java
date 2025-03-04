@@ -11,8 +11,11 @@ class A{
     }
 }
 class B extends A{
+
     // error because final method can't be overridden
-    void show(){
-        System.out.println("B");
-    }
+    // void show(){
+    //     System.out.println("B");
+    // }
+
+    
 }

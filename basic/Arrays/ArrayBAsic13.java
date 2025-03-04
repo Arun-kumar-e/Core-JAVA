@@ -4,7 +4,6 @@ public class ArrayBAsic13 {
 
         int b[] = new int[a.length];
         int zero = 0 ;
-        int one = 0;
         for (int i = 0; i < a.length; i++) {
             if (a[i] == 0) {
                 zero++;
