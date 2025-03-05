@@ -25,6 +25,7 @@ public class CreateFile {
 		FileWriter filewrite = new FileWriter("Filee/File.txt" , true);
 		filewrite.append(" , arun");
 		System.out.println("File Created ");
+		filewrite.append(" Aafes \n" + "aeqwef \n"  + "Safaff");
 
 		filewrite.close();
 	}
